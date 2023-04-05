@@ -1,0 +1,238 @@
+@charset "utf-8";
+
+#header .top {
+	position: relative;
+	margin: 0 auto;
+	width: 1020px;
+	height: 100px;
+}
+#header .top .sns {
+	float: left;
+	margin-top: 30px;
+}
+#header .top .sns li {
+	display: inline-block;
+}
+#header .top .logo {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+#header .top .utils {
+	float: right;
+	margin-top: 35px;
+}
+#header .top .utils li {
+	display: inline-block;
+}
+#header .top .utils li a {
+	display: block;
+	padding: 0 10px;
+	font-size: 13px;
+	color: #b3b3b3;
+}
+#gnb {
+	margin: 0 auto;
+	width: 1020px;
+	height: 55px;
+}
+#gnb li {
+	display: inline-block;
+	margin-top: 15px;
+}
+#gnb li a {
+	display: block;
+	padding: 0 60px;
+	font-size: 15px;
+}
+#section {
+	width: 1020px;
+	margin: 0 auto;
+}
+#section .bnr1 {
+	margin-top: 70px;
+	height: 388px;
+}
+#section .bnr1 .bnr1_1 {
+	float: left;
+	width: 690px;
+}
+#section .bnr1 .bnr1_2 {
+	float: right;
+	width: 300px;
+}
+#section .bnr1 .bnr1_2 a{
+	display: block;
+	padding: 100px 50px 80px;
+	width: 300px;
+	height: 388px;
+	text-align: center;
+	border: 1px solid #aaa;
+	box-sizing: border-box;
+}
+#section .bnr1 .bnr1_2 a h3 {
+	font-size: 22px;
+}
+#section .bnr1 .bnr1_2 a .text1 {
+	display: block;
+	margin-top: 8px;
+	font-size: 14px;
+}
+#section .bnr1 .bnr1_2 a .text2 {
+	display: block;
+	margin-top: 35px;
+	font-size: 16px;
+	color: #aaaaaa;
+}
+#section .bnr1 .bnr1_2 a .btn {
+	margin-top: 40px;
+	text-decoration: underline;
+	font-size: 15px;
+}
+#section .bnr2 {
+	margin-top: 31px;
+	height: 388px;
+}
+#section .bnr2 .bnr2_1 {
+	float: left;
+	width: 300px;
+}
+#section .bnr2 .bnr2_1 a {
+	display: block;
+	padding: 100px 50px 80px;
+	width: 300px;
+	height: 388px;
+	text-align: center;
+	border: 1px solid #aaa;
+	box-sizing: border-box;
+}
+#section .bnr2 .bnr2_1 a h3 {
+	font-size: 22px;
+}
+#section .bnr2 .bnr2_1 a .text1 {
+	display: block;
+	margin-top: 10px;
+	font-size: 14px;
+}
+#section .bnr2 .bnr2_1 a .text2 {
+	display: block;
+	margin-top: 35px;
+	font-size: 16px;
+	color: #aaaaaa;
+}
+#section .bnr2 .bnr2_1 a .btn {
+	margin-top: 45px;
+	text-decoration: underline;
+	font-size: 15px;
+}
+#section .bnr2 .bnr2_2 {
+	float: right;
+	width: 690px;
+}
+#section .bnr3 {
+	margin-top: 31px;
+	height: 900px;
+}
+#section .bnr3 .bnr3_left {
+	float: left;
+	width: 495px;
+}
+#section .bnr3 .bnr3_left_1 {
+	height: 570px;
+	position: relative; /* 기준점 */
+}
+#section .bnr3 .bnr3_left_1 div.text { /* 추가 */
+	position: absolute;
+	left: 30px; /* left right / top bottom */
+	bottom: 50px;
+	border: 1px solid #000;
+}
+#section .bnr3 .bnr3_left_2 {
+	height: 300px;
+	margin-top: 30px;
+}
+#section .bnr3 .bnr3_left_2 a {
+	display: block;
+	padding: 80px 150px 80px;
+	width: 495px;
+	height: 300px;
+	text-align: center;
+	border: 1px solid #aaa;
+	box-sizing: border-box;
+}
+#section .bnr3 .bnr3_left_2 a h3 {
+	font-size: 30px;
+}
+#section .bnr3 .bnr3_left_2 a .text {
+	display: block;
+	margin-top: 15px;
+}
+#section .bnr3 .bnr3_left_2 a .btn {
+	margin-top: 30px; 
+}
+#section .bnr3 .bnr3_right {
+	float: right;
+	width: 495px;
+}
+#section .bnr3 .bnr3_right_1 {
+	height: 300px;
+}
+#section .bnr3 .bnr3_right_1 a {
+	display: block;
+	padding: 80px 100px 80px;
+	width: 495px;
+	height: 300px;
+	text-align: center;
+	border: 1px solid #aaa;
+	box-sizing: border-box;
+}
+#section .bnr3 .bnr3_right_1 a h3 {
+	font-size: 30px;
+}
+#section .bnr3 .bnr3_right_1 a .text {
+	display: block;
+	margin-top: 10px;
+}
+#section .bnr3 .bnr3_right_1 a .btn {
+	margin-top: 30px;
+}
+#section .bnr3 .bnr3_right_2 {
+	margin-top: 30px;
+	height: 570px;
+}
+#footer {
+	background-color: #333333;
+	padding: 90px 0;
+	text-align: center;
+	margin-top: 60px;
+}
+#footer .footer_inner {
+	width: 1020px;
+	margin: 0 auto;
+}
+#footer .footer_inner .copyright p {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 13px;
+	color: #6a6b6d;
+}
+#footer .footer_inner .copyright a {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+#footer .footer_inner .sns li {
+	display: inline-block;
+	margin-top: 20px;
+}
+#footer .footer_inner .sns li a {
+	display: block;
+	padding: 0 20px;
+}
+#footer .footer_inner .copyright_2 {
+	vertical-align: middle;
+	margin-top: 20px;
+	font-size: 12px;
+	color: #6a6b6d;
+}
